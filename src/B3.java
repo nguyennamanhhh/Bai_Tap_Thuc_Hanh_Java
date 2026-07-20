@@ -128,7 +128,7 @@ class KhachHang {
     }
 }
 
-public class Main {
+public class B3 {
     public static void main(String[] args) {
         KhachHang kh = new KhachHang("KH001", "Nguyen Van A", "0909123456");
 

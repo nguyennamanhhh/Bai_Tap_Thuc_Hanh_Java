@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Number {
+public class B2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] numbers = new int[10];
@@ -22,8 +22,7 @@ public class Number {
         Arrays.sort(numbers);
 
         System.out.println("Mang sau khi sap xep tang dan: " + Arrays.toString(numbers));
-        
+
         scanner.close();
     }
 }
-
