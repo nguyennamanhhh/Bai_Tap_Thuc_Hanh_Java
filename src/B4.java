@@ -13,6 +13,22 @@ class XeDien extends Oto {
         super(bienSo, hangXe, mauXe);
         this.dungLuongPin = dungLuongPin;
     }
+
+    public int getDungLuongPin() {
+        return dungLuongPin;
+    }
+
+    public void setDungLuongPin(int dungLuongPin) {
+        this.dungLuongPin = dungLuongPin;
+    }
+
+    public String getLoaiCongSac() {
+        return loaiCongSac;
+    }
+
+    public void setLoaiCongSac(String loaiCongSac) {
+        this.loaiCongSac = loaiCongSac;
+    }
 }
 
 class XeXang extends Oto {
@@ -21,6 +37,22 @@ class XeXang extends Oto {
 
     public XeXang(String bienSo, String hangXe, String mauXe, double dungTichXilanh) {
         super(bienSo, hangXe, mauXe);
+        this.dungTichXilanh = dungTichXilanh;
+    }
+
+    public double getDungTichBinhXang() {
+        return dungTichBinhXang;
+    }
+
+    public void setDungTichBinhXang(double dungTichBinhXang) {
+        this.dungTichBinhXang = dungTichBinhXang;
+    }
+
+    public double getDungTichXilanh() {
+        return dungTichXilanh;
+    }
+
+    public void setDungTichXilanh(double dungTichXilanh) {
         this.dungTichXilanh = dungTichXilanh;
     }
 }
